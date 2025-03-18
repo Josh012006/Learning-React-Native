@@ -20,5 +20,6 @@ export default function Card ({style, ...rest} : Props) {
 
 const styles = {
     borderRadius: 8,
+    overflow: 'hidden',
     ...shadows.dp2
 } as ViewStyle;
